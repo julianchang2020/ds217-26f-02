@@ -2,11 +2,11 @@
 
 ## Project description
 
-TODO: Replace this line with a 30-300 character description of what this project does. (This is part of the assignment, read on and it will make more sense.)
+In this assignment, we are evaluating a dataset of clinic encounters. Reading systolic blood pressures and follow-up with the patient, we are using cut-offs to produce the number of usable encounters for analysis.  
 
 ## Run
 
-TODO: Replace this line with the Python 3.13 terminal command that runs your report script.
+Run `python3 clinic_report.py` from this folder.
 
 ## Files
 
@@ -30,6 +30,9 @@ assignment/
 Fork the assignment repository on GitHub and clone your fork the way Lecture 01 did: Command Palette → **Git: Clone**, paste your fork's URL, pick a folder, and open it. Then open **Terminal → New Terminal** in VS Code at the assignment directory (Ctrl+Shift+backtick, also Control on Mac). If you use a native terminal or WSL Ubuntu instead, `cd` into the assignment directory first. Run `ls data` and expect `clinic_encounters.csv`. This clone is a new repository, so before your first commit run Lecture 02's two `git config user.name "..."` and `git config user.email "..."` lines in this terminal, with your name and GitHub noreply email.
 
 Open the repository in VS Code, switch to `main`, select **Sync Changes** if Source Control shows it, and finish any outstanding changes. Open the Command Palette, select **Git: Create Branch**, and name the new branch `feature/clinic-report`. Work on that branch until the Submit section.
+
+git config user.name "julianchang2020"
+git config user.email "304670413+julianchang2020@users.noreply.github.com"
 
 ## Task 1: Document the project
 
