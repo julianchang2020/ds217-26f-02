@@ -1,0 +1,17 @@
+Cutoff: 130 mmHg
+Reason: I am choosing 130 mmHg as my cutoff as it is the recommended cutoff point for reporting Stage 1 Hypertension by the American Heart Association.
+P002
+P005
+P006
+P009
+P011
+P014
+P015
+P018
+P020
+P006
+P022
+P023
+P025
+P011
+P028
