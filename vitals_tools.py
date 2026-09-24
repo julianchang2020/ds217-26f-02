@@ -46,7 +46,7 @@ def patients_at_or_above(encounters, cutoff):
     # TODO: keep each patient whose systolic reading is at or above cutoff.
     ids = []
     for encounter in encounters:
-        if encounter["systolic"] > cutoff:
+        if encounter["systolic"] >= cutoff:
             ids.append(encounter["patient_id"])
     return ids
     pass
