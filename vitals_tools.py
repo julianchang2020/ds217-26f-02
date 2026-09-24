@@ -42,11 +42,11 @@ def count_patients(encounters):
 
 
 def patients_at_or_above(encounters, cutoff):
-    """TODO: Returns only the patient IDs whose systolic pressure is above 130 mm Hg."""
+    """TODO: Returns only the patient IDs whose systolic pressure is at or above 130 mm Hg."""
     # TODO: keep each patient whose systolic reading is at or above cutoff.
     ids = []
     for encounter in encounters:
-        if encounter["systolic"] > cutoff:
+        if encounter["systolic"] >= cutoff:
             ids.append(encounter["patient_id"])
     return ids
     pass
