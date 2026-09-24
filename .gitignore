@@ -1,3 +1,3 @@
 # Python cache
-/home/jchang/ds217-26f-02/__pycache__
-/home/jchang/ds217-26f-02/__pycache__/vitals_tools.cpython-314.pyc
+__pycache__/
+*.pyc

@@ -67,6 +67,7 @@ A data row is **usable** when all three of these hold:
 
 Every other data row is **skipped**, the blank line included. Print one line per skipped row while you develop, so you can see which rows dropped out and why.
 
+
 ### 2.2 Split the work across the two scripts
 
 Complete the calculations in `vitals_tools.py` and the reading, printing, and saving in `clinic_report.py`, which imports from `vitals_tools` the way Demo 2 and Demo 3 do. `read_encounters()` gives back two values, the usable encounters and the number of skipped rows, because your report needs both. Keep `clinic_report.py` safe to import: `python3 -c "import clinic_report"` should print nothing and write nothing.
